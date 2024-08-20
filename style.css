@@ -1,0 +1,124 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+    margin-bottom: 100px;
+    
+}
+
+
+.link-header{
+    color: #7a7e7d;
+    margin-right: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.button-header {
+    background-color: #665ae1;
+    width: 130px;
+    height: 41px;
+    border-radius: 21px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    line-height: 30px;
+    color: #848484;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #adff00;
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25) );
+    line-height: 34px;
+}
+
+@media screen  and (max-width: 700px){
+    .img-logo {
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        display: block;
+    }
+    p {
+        display: none;
+    }
+    h1 {
+        font-size: 50px;
+        position: static;
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        position: static;
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+    .button-main {
+        position: static;
+        display: block;
+        margin: auto;
+    }
+    header {
+        display: none;
+    }
+    section {
+        display: block;
+        margin: auto;
+    }
+    body {
+        margin-top: 28%;
+    }
+}
