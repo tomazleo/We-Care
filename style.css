@@ -23,6 +23,14 @@ header {
     cursor: pointer;
 }
 
+.link-header:hover {
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.2) );
+}
+
+.link-header:active {
+    opacity: 0.5;
+}
+
 .button-header {
     background-color: #665ae1;
     width: 130px;
